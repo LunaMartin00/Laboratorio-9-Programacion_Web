@@ -1,0 +1,39 @@
+{
+  "name": "server-be",
+  "version": "1.0.0",
+  "description": "REST API para gestión de usuarios con Express, PostgreSQL y JWT",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test-db": "node test-db.js",
+    "test": "echo \"No hay tests configurados aún\" && exit 0",
+    "setup": "npm install && npm run test-db"
+  },
+  "keywords": [
+    "rest-api",
+    "express",
+    "postgresql",
+    "jwt",
+    "authentication",
+    "users",
+    "backend"
+  ],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
