@@ -1,0 +1,21 @@
+{
+  "name": "practica-09-laboratorio",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Clase de 3 Nov - App Web Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "node app.js"
+  },
+  "author": "Martin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  }
+}
